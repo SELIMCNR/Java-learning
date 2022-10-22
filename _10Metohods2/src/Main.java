@@ -9,7 +9,26 @@ public class Main {
 
         int toplam = topla2(5,8,8,9,89787,454);
         System.out.println(toplam);
+
+        int sayi1 = 5 ;
+    for (int i = 0 ; i<=10;i++) {
+
+        if (sayi1 == 5) {
+            ekle();
+        } else if (sayi1 == 9) {
+            sil();
+        } else if (sayi1==10){
+            güncelle();
+            break;
+        }
+        sayi1++;
+
     }
+        sehirVer();
+    //Ornek6
+        books("Java","Javascript","C#","C++");
+    }
+
     public static  void  ekle(){
         System.out.println("Eklendi");
     }
@@ -33,6 +52,13 @@ public class Main {
             toplam +=sayi;
         }
         return toplam;
+    }
+    public  static String[] books(String...book){
+        String[] kitaplar=book;
+        for( String kitap:kitaplar){
+            System.out.println(kitap);
+        }
+        return kitaplar;
     }
 
 }
