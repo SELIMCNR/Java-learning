@@ -27,5 +27,11 @@ public class Main {
             System.out.println(ogrenci);
         }
 
+        //2.Ornek
+        String[] books = {"Java","C","C++","C#","Sql"};
+        for (String book:books){
+            System.out.println(book);
+        }
+
     }
 }

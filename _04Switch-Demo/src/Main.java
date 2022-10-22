@@ -17,6 +17,31 @@ public class Main {
                 System.out.println("Maalesef kaldınız");
             default:
                 System.out.println("Geçersiz not girdiniz");
+
         }
+
+        int a=20;
+        int b=15;
+        char islem= '+';
+        switch (islem){
+            case '+':
+                System.out.println(a+b);
+                break;
+            case '-':
+                System.out.println(a-b);
+                break;
+            case '/':
+                System.out.println(a/b);
+                break;
+            case '*':
+                System.out.println(a*b);
+                break;
+            default:
+                System.out.println("Geçersiz işlem");
+                break;
+        }
+
+
+
     }
 }

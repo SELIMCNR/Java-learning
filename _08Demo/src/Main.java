@@ -108,6 +108,15 @@ public class Main {
             System.out.println("Sayı mevcut değildir.");
         }
 
+        //Uygulama 6 Tek çift
+        int sayi=0;
+        if(sayi %2==0){
+            System.out.println("Çift");
+        }
+        else {
+            System.out.println("Tek");
+        }
+
 
     }
 }

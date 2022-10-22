@@ -16,5 +16,19 @@ public class Main {
         }
         System.out.println("En buyuk = "+enBuyuk);
 
+
+        int number1 = 25;
+        int number2 = 35;
+        int number3 = 45;
+        int Big=sayi1;
+        if(Big <number2){
+            Big = number2;
+        }
+        if(Big<number3){
+            Big = number3;
+        }
+        System.out.println("Big : "+Big);
+
+
     }
 }
